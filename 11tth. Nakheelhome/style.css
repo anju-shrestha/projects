@@ -1,0 +1,534 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+main{
+  
+    width: 100%;
+}
+.left-aside{
+    width: 80%;
+
+}
+header{
+    width: 80%;
+    height: 70px;
+    box-shadow: 0px 3px 5px 0px rgb(127, 129, 131);
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    position: fixed;
+    background: white;
+    z-index: 10;
+   
+}
+.logo{
+  
+   padding: 10px 20px;
+}
+
+nav i{
+    padding-right: 5px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding-right: 5px;
+  
+}
+header nav ul li{
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    border-right: 1px solid grey;
+    transition: 1s;
+    
+}
+.arrow{
+    animation: arrowdown 1s infinite linear;
+}
+header nav ul li:last-child{
+    border: none;
+}
+header nav ul li:hover{
+    background: rgb(202, 214, 216); 
+}
+.blankdiv{
+    width: 100%;
+    height: 70px;
+
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url(img/banner/banner11.jpg) center;
+    background-size: cover;
+    padding: 20px;
+    border-bottom: 10px solid rgb(202, 220, 241);
+}
+.box-on-banner{
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 10px;
+  text-align: center;
+}
+.box-on-banner h4{
+    color: rgb(3, 42, 87);;
+}
+.box-on-banner h3{
+    text-align: center;
+    font-size: 25px;
+}
+.box-on-banner p{
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+    color: black;
+}
+.mobile-box{
+    display: none;
+}
+.mob-registeration{
+    display: none;
+}
+.boxbtn{
+    margin: 10px 0px 0px 25px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background: rgb(3, 42, 87);
+    border-radius: 5px;
+}
+.enbtn{
+   margin-top:5px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    color: white;
+    background: rgb(3, 42, 87);
+    border-radius: 5px;
+    animation: btnmove 5s infinite linear ;
+}
+.overview-box{
+    border: 10px solid rgb(202, 220, 241);
+    border-left: none;
+    position: relative;
+}
+.overview-box h1{
+    font-size:30px;
+    padding:40px 0px 0px 40px ;
+    color: rgb(3, 42, 87);;
+}
+.overview-box p{
+    padding:5px 100px 0px 40px ;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    text-align: justify;
+}
+.listrow{
+    margin: 20px;
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+.leftul{
+    padding: 0px 100px;
+    
+}
+iframe{
+    width: 90%;
+    padding: 30px 0px 20px 40px;
+}
+.overview-btn{
+    margin:0px 0px 40px 40px;
+    border: 1px solid rgb(3, 42, 87);
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    color:rgb(3, 42, 87);
+    background: white;
+    border-radius: 5px;
+
+}
+.righthangingtext{
+    width: 200px;
+    color:rgb(3, 42, 87);
+    text-transform: capitalize;
+    transform: rotate(90deg);
+    position: absolute;
+    right: -75px;
+    top: 80px;
+}
+.righthangingtext h1{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 0px;
+}
+.pricebox{
+    border: 10px solid rgb(202, 220, 241);
+    border-left: none;
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.pricebox table{
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    
+}
+.pricebox table th{
+    padding: 10px 50px 10px 10px;
+    text-align: left;
+}
+.pricebox table td{
+    padding: 10px 50px 10px 10px;
+    text-align: left
+}
+.pricebox table tr:nth-child(2){
+    background: rgb(220, 224, 236);
+}
+.table-btn{
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    color: white;
+    background: rgb(3, 42, 87);
+    border-radius: 5px
+}
+.price-btn{
+    margin-top: 50px;
+    width: 35%;
+    height: 100px;
+    margin-left: 20px;
+    position: relative;
+  
+
+}
+.hide-btn{
+    width: 250px;
+    height: 0px;
+    border: none;
+    background: rgba(0, 0, 0, 0.548);
+    color: white;
+    font-size:30px;
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    transition: 1s;
+}
+.enqbtn{
+    border: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    width: 100px;
+    left: 70px;
+    top:-90px;
+    opacity: 0;
+    z-index: 8;
+    transition: 1s;
+}
+.costing-btn{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background: #003f72;
+    color: white;
+    font-size: 16px;
+   
+}
+.price-btn:hover .hide-btn{
+    height: 40px;
+    top: -40px;
+    opacity: 1;
+ 
+}
+.price-btn:hover .enqbtn{
+  top: -60px;
+    opacity: 1;
+}
+.site-box{
+    border: 10px solid rgb(202, 220, 241);
+    padding: 20px 0px 100px 20px;
+    border-left: none;
+    position: relative;
+
+
+}
+.site-box .imgdiv{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.innerimgbox {
+    width: 48%;
+    padding: 1%;
+}
+.img-box {
+    width: 100%;
+    position: relative;
+
+}
+.img-box img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid grey;
+}
+.transdiv{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.363);
+    transition: 0.5s;
+}
+.img-box:hover .transdiv {
+    height: 303px;
+}
+.transenq-btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 38%;
+    opacity: 0;
+    z-index: 7;
+    transition: 1s;
+}
+.img-box:hover .transenq-btn {
+    opacity: 1;
+    top: 140px;
+}
+.btn-3bhk{
+    width: 100%;
+    height: 40px;
+    background: #003f72;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+    
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+.site-righthangingtext{
+    width: 400px;
+    color:rgb(3, 42, 87);
+    text-transform: capitalize;
+    transform: rotate(90deg);
+    position: absolute;
+    right: -175px;
+    top: 180px;
+}
+.site-righthangingtext h1{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 0px;
+
+}
+.amenities{
+    border: 10px solid rgb(202, 220, 241);
+  padding: 40px;
+    border-left: none;
+    position: relative;
+}
+.amenities-row{
+    display: flex;
+   
+   
+}
+ .amenities-imgdiv{
+    display: flex;
+    flex-basis:450px ;
+    padding:10px 0px;
+    margin:0px 10px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+.amenities-imgdiv:nth-child {
+    border: none;
+}
+.amenities-imgdiv .imagebox img{
+    width: 50px;
+    height: 50px;
+}
+.amenities-row .amenities-imgdiv .caption{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.gallery{
+    position: relative;
+    border: 10px solid rgb(202, 220, 241);
+    padding: 40px;
+    border-left: none;
+}
+.map{
+    position: relative;
+    border: 10px solid rgb(202, 220, 241);
+    border-left: none;
+}
+.virtual{
+    position: relative;
+    border: 10px solid rgb(202, 220, 241);
+    border-left: none;
+}
+footer{
+    background: rgb(202, 220, 241); ;
+}
+footer p{
+   padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 11px;
+}
+footer a{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*right side start */
+
+.right-aside{
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+   background-color: rgb(236, 238, 241);
+
+}
+.btnbg{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(202, 214, 216);
+}
+.right-aside .btn1{
+    margin: auto;
+    border: none;
+    width: 260px;
+    height: 35px;
+    color: white;
+    background: rgb(19, 18, 18);
+    border-radius:0px 0px 20px 20px;
+}
+.right-aside ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 13px;
+
+}
+.right-aside ul li{
+    padding: 8px;
+    width: 50%;
+}
+.right-aside ul li i{
+    padding-right: 5px;
+}
+.right-aside ul li:first-child{
+    border-right:1px solid white;
+   
+}
+.btn2{
+    margin: 10px auto;
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: white;
+    background: rgb(3, 42, 87);
+   border-radius: 5px;
+}
+.btn2 i{
+    padding-right: 5px;
+}
+h4{
+    text-align: center;
+   padding: 10px 0px 10px 0px;
+}
+p{
+    padding: 20px 0px 5px 10px;
+    color: grey;
+}
+.btn3{
+    margin: 50px 20px 0px 30px ;
+    border: none;
+    width: 220px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    background: rgb(3, 42, 87);
+    border-radius: 5px;
+    animation: btnmove 5s infinite linear ;
+}
+/* right side finished here */
+.mob-bottom-fix{
+    display: none;
+}
+
+/*animation section below==*/
+  
+@keyframes btnmove {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    75%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes arrowdown {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    75%{
+        transform: translateY(6px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
