@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    width: 100%;
+    border: 1px solid blue;
+}
+.sub {
+    width: 20%;
+    height: 500px;
+    border: 1px solid red;
+    float: left;
+}
+.sub-div {
+    width: 20%;
+    height: 300px;
+    border: 1px solid green;
+    float: right;
+}
+.clear {
+    clear: both;
+}

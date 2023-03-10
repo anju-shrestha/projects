@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.clear {
+    clear: both;
+}
+.homediv{
+    margin: auto;
+    width: 100%;
+    height: 900px;
+    background: url(assets/home/background-home-desktop.jpg);
+    background-size: cover;
+
+
+}
+.stardiv {
+    width: 80px;
+    height: 80px;
+    float:left;
+    border-radius: 50%;
+    margin: 50px;
+    background-color: aliceblue;
+}
+.stardiv img{
+    width: 100%;
+
+
+}
+.homehr{
+    float:left ;
+    margin-left: 100px;
+    background-color: rgb(71, 70, 70);
+    height: 2px;
+    border: none;
+    width: 804px;
+    margin-top: 80px;
+  
+}
+.menudiv{
+    float: right;
+    background-color:rgb(36, 45, 61) ;
+    opacity: 0.8;
+    width: 737px;
+    height: 80px;
+    margin-top: 40px;
+}
+.menuhr{
+    background: rgb(71, 70, 70);
+    height: 2px;
+    border: none;
+    width: 50px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.homeul{
+    list-style: none;
+}
+.homeli{
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.homeA{
+    color: white;
+    text-decoration: none;
+}
+.squarediv{
+    margin-top: 300px;
+    float: left;
+    width: 600px;
+}
+.homeh3{
+    color: rgb(85, 89, 112);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-left: 110px;
+    margin-bottom: 0px;
+  
+
+}
+.homeh1{
+    color: white;
+    font-family:serif;
+    margin-left: 100px;
+    font-size: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.homeP{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(85, 89, 112);
+    margin-left: 100px;
+    line-height: 1.5;
+    padding-top: 0px;
+}
+.Explorediv{
+    background-color: white;
+    float: right;
+    margin-top: 400px;
+    margin-right: 150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.homeh2{
+    color:rgb(85, 89, 112);;
+    font-size: 30px;
+    margin-left: 55PX;
+    margin-top: 110px;
+    text-transform: uppercase;
+
+}
+.destinationdiv{
+    background: url(assets/destination/background-destination-desktop.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 900px;
+}
+.imgdiv{
+    float: left;
+}
+
+span{
+    color:  rgb(85, 89, 112);
+    margin-right: 20px;
+}
+.destinationh3{
+    color: rgb(231, 222, 222);
+    margin-left: 150px;
+    margin-top:200px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.planetimg{
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+.Detailsdiv{
+    float: right;
+    width: 700px;
+    margin-top: 200px;
+}
+.destinationul{
+    list-style: none;
+    color:  rgb(85, 89, 112);
+    margin-top: 0px;
+}
+.destinationli{
+    float: left;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.destinationA{
+    color:rgb(201, 204, 219);
+    text-decoration: none;
+}
+.destinationh1{
+    color: white;
+    font-family:serif;
+    margin-left: 50px;
+    font-size: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+
+}
+.destinationp{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(85, 89, 112);
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.destinationhr{
+    float:left ;
+    background-color: rgb(71, 70, 70);
+    height: 3px;
+    border: none;
+    width: 503px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.distancediv{
+    float: left;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.distancep{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 89, 112);
+    float: left;
+    margin-right: 100px;
+   
+}
+.digitdiv{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.distancep2{
+    display: inline;
+    float: left;
+    color: rgb(151, 152, 155);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+    margin-right: 70px;
+}
+.crewdiv{
+    width: 100%;
+    height: 900px;
+    background: url(assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+}
+.personalinfodiv{
+   float: left;
+   margin-top: 200px;
+}
+.crew1h3{
+    color: rgb(231, 222, 222);
+    margin-left: 100px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.crewh3{
+    color:  rgb(151, 152, 155);
+    margin-left: 100px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin-top: 100px;
+
+}
+.crewh1{
+    color: rgb(201, 195, 195);
+    width: 500px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+}
+.crewp{ 
+    width: 700px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(129, 135, 170);
+    margin-left: 100px;
+    width: 500px;
+    line-height: 1.5;
+}
+.crewul{
+   float: left;
+   margin-top: 20px;
+   list-style: none;
+   margin-left: 100px;
+ 
+}
+.crewli{
+    float: left;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.crewimgdiv{
+    float: right;
+    margin-top: 175px;
+    margin-right: 100px;
+}
+.crewanchor{
+    text-decoration: none;
+    color: rgb(201, 195, 195);
+}
+.technologydiv{
+    width: 100%;
+    height: 900px;
+    background: url(assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+}   
+.technologylisdiv{
+    float: left;
+    margin-top: 100px;
+    padding-top: 10px;
+}
+.technologyh3{
+    color: rgb(247, 232, 232);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contentdiv{
+    width: 100%;
+    height: 500px;
+    margin-top: 300px;
+ 
+}
+.circlebox{
+    float: left ;
+    width: 25%;
+    height: 500px;
+
+}
+.circlediv{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    background: white;
+    border-radius: 50%;
+    font-size: 40px;
+    margin: 30px 30px 30px 170px;
+    
+}
+.discriptiondiv{
+    float: left;
+    width: 600px;
+    height: 460px;
+    padding: 20px;
+ 
+}
+.technology-h3{
+    color:  rgb(151, 152, 155);
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    
+
+}
+.techonogyh1{
+    color: rgb(201, 195, 195);
+  
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+ 
+}
+.techonolyp{
+    width: 700px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(129, 135, 170);
+    width: 600px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+.techonologya{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.contentdiv img{
+float: right;
+}
+
