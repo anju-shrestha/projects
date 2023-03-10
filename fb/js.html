@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-practice</title>
+</head>
+<body>
+    <script>
+        // only if statement
+        var month=prompt("Enter the month")
+        if(month=='august'){
+            document.write('vacation');
+        }
+//if else statement
+        let height=+prompt('height')
+        if(height>2.45){
+            console.log("It's a new record")
+        }
+        else{
+            console.log('Sorry, not this time. Better luck for the next time')
+        }
+
+    //if else if statement
+    var score=50
+    if (score>88){
+        document.write('exelent')
+    }
+    else if(score>40 && score<=87){
+        document.write('good')
+    }
+    else if(score<39){
+        document.write('fail')
+    }
+        /*
+        var n=+prompt("please enter the number")
+        var ullu=n% 2 ==0? "even" : "odd" ;
+        document.write(ullu);
+        */
+
+        /*
+        var n=+prompt("please enter a number")
+        var ullu=n%2
+        if(ullu%2==0){
+            document.write('even')
+        }
+        else{
+            document.write('odd')
+        }
+        */
+
+        /*var number=+prompt("enter the number")
+        var n=+prompt("enter the number")
+        document.write(n+number)
+        */
+        /*
+        var age=+prompt("enter the age")
+        var eligibiilty=18
+        if (eligibiilty<=age){
+            document.write(true)
+        }
+        else{
+            document.write(false)
+        }
+        */
+
+
+
+
+
+
+
+
+        /*
+
+        var age=+prompt("enter the age")
+        var eligibiilty=18 <=age? "true" : "false";
+        document.write(eligibiilty);
+
+        */
+       /*
+       var a=+prompt("marks")
+       var b=+prompt("marks")
+       var c=+prompt("marks")
+       var d=+prompt("marks")
+       var e=+prompt("marks")
+       var f=+prompt("marks")
+       var total=a+b+c+d+e+f
+       var percentage=total/300*100
+       if(percentage>=60){
+        document.write("first division");
+       }
+       else if(percentage<60 && percentage >50) {
+        document.write("second division");
+       }
+       else if(percentage<50 && percentage <40) {
+        document.write("third division");
+       }
+       else if (percentage<=3 0){
+        document.write("fail")
+       }
+     */
+    /*
+        var a=parseInt(prompt("enter the value"));
+       var m=a%2 ==0 ? "even number" : "odd number"
+       document.write(m);
+    */
+     
+    /*var a=parseInt(prompt("Enter the value"));
+     var b=parseInt(prompt("Enter the value"));
+    
+     var finalans=(a>b) ? a+" is greater than " + b : b+ " is greater than "+a
+    document.write(finalans);
+    */
+   /*    
+    var a=parseInt(prompt("Enter your correct value"))
+    var b=parseInt(prompt("Enter your correct value"))
+    var c=parseInt(prompt("Enter your correct value"))
+
+    var finalans=(a>b && a>c)? 
+                a  : (b<a && b>c)? b :c
+    document.write(finalans);
+    */
+   /*
+   var a=parseInt(prompt("enter the value"))
+   if (a>0) {
+   alert("yes");
+   }
+   */
+    
+   /*
+   var a=15;
+    if (a%2==0) {
+        document.write("even number")
+    }
+
+    else{
+     document.write("odd number")
+    }
+
+    */
+   /*
+   var english=+prompt("Enter your marks")
+   var math=+prompt("Enter your marks")
+   var hindi=+prompt("Enter your marks")
+   var physics=+prompt("Enter your marks")
+   var science=+prompt("Enter your marks")
+   var economics=+prompt("Enter your marks")
+   var total=english+math+hindi+physics+science+economics
+   var percentage= total/700*100
+
+   if (percentage >60){
+    document.write(" Congratulations you got first division ");
+   }
+   else if (percentage<60 && percentage>=50){
+    document.write(" Congratulations you got second division ");
+   }
+   else if(percentage<50 && percentage>=35){
+    document.write(" Congratulations you got third division but try hard");
+   }
+   else if (percentage<35) 
+   {
+    document.write("sorry you are failed, better for the next time.");
+   }
+   */
+/*
+  var year=+prompt("Check the leap year")
+
+  if (year%4==0 && year%400==0) {
+    document.write(year +" this is leap year."),
+  } 
+  else{
+    document.write(year+" this is not leap year. ");
+  }
+  */
+/*
+  for (var i=1; i<=10; i++) {
+        document.write(i, " wscube <br>")
+    }
+*/
+/*
+for (var n=1; n<=10; n++){
+    document.write(4, " * ", n, " = " , n*4, "<br>" );
+    
+}
+*/
+/*
+for (var i=1; i<=10; i++){
+    if (i==2 || i==9){
+        document.write(i," WS ", "<br>")
+    }
+    else{
+        document.write(i," IIP ", "<br>")
+    }
+}
+*/
+/*
+for (var i=1; i<=100; i++){
+var ans=(i%2==0)? i : "this space is for odd number"; 
+document.write(ans, "<br>");
+}
+*/
+/*
+for (var i=1; i<=100; i++)
+if (i%2==0){
+    document.write(i, "<br><br>");
+}
+else{
+    document.write("");
+}
+*/
+/*
+for (var r=1;r<=10; r++){
+        for (var i=1; i<=r; i++) {
+            document.write("*");
+        }
+
+        document.write(r,"<br>");
+}
+*/
+/*
+for (var r=5;r>=1; r--){
+        for (var i=1; i<=r; i++) {
+            document.write("*");
+        }
+
+        document.write(r,"<br>");
+}
+for (var r=1;r<=5; r++){
+        for (var i=5; i>=r; i--) {
+            document.write("*");
+        }
+
+        document.write("<br>");
+}
+*/
+// for(var i=1;i<=25;i=i+5){
+//     for(var r=i; r<=i+4; r++){
+//         document.write(r, " ")
+//     }
+//     document.write( "<br>");
+//     // 
+
+// var l=[200,500,700,600,2000,5000];
+// var temp=0;
+
+// for (var j of i){
+//     temp=temp+j;
+//     if(temp<=3000){
+//         continue;
+//     }
+//     else{
+//         temp=temp-1;
+//     }
+//     document.write(temp);
+
+// }
+// function msg(){
+//     alert("hello! this is a message")
+// }
+// function getcube(number){
+//     alert(number*number*number)
+// }
+// function getinfo(){
+//     return "hello!world, how are you?";
+//     document.write(getinfo());
+// }
+// </script>
+<script>
+// //      document.write(getinfo());
+
+//     var l=[10,20,30,7,30,8,100,];
+//     var c=0
+//     for (var arrayValue of l){
+
+//         if(arrayValue==30){
+
+//             c++;
+//             document.write(arrayValue,"<br>");
+//         }
+//     if(c==2){
+//         break;
+//     }
+// }
+  
+// for(var i=1; i<=10;i++){
+//     if(i==5){
+//         continue;
+//     }
+//     document.write(i,"<br>")
+// }
+// var i=[200,500,700,600,2000,5000];
+// var t=0;
+// for (var a of i){
+//     t=t+a;
+//     if(t<=3000){
+//         continue;
+//     }
+//     else{
+//         t=t-a;
+//         break;
+//     }
+// }
+// document.write(t);
+      
+    
+// for(var arraykey in l){
+//     document.write(l[2], " ");
+//  }
+
+
+
+
+
+
+
+
+// {
+// var input=parseInt(prompt("distance"))
+// var hour=input/40
+// var min=hour*60
+// document.write(min+'minutes');
+// }
+
+
+
+// for(var i=1; i<=7; i++);
+// var a= i-2;
+// document.write(a)
+
+// var day=7
+// switch(day){
+// day1=day-2}
+
+</script>
+
+
+
+
+<!--
+<input type="button" onclick="msg()" value="this is a try button">
+<input type="button" onclick="getcube(5)" value="click to get cube value">
+-->
+</body>
+</html      
